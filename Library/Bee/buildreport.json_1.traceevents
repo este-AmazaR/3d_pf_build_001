@@ -1,0 +1,596 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681874476592058, "dur": 638056, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874476592209, "dur": 11081, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874476603292, "dur": 17047, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874476620362, "dur": 144331, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874476764695, "dur": 452157, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874477216853, "dur": 13261, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874477230416, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681874476675703, "dur": 65682, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476676462, "dur": 28513, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476731393, "dur": 2843, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476734238, "dur": 7143, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476734685, "dur": 6322, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476744144, "dur": 921, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681874476743648, "dur": 1432, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874477230491, "dur": 141, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681874476786340, "dur":498, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874476786843, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681874476786877, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681874476786889, "dur":328, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681874476787235, "dur":355, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874476787590, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190405, "dur":376, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190781, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190786, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190787, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190790, "dur":146, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190936, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190942, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190943, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190949, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190950, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190954, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190955, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190959, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190960, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190963, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190964, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190978, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190978, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190982, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190983, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190987, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190988, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190990, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190991, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190994, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190994, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190997, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477190998, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191000, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191001, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191003, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191004, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191007, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191008, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191010, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191011, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191013, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191013, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191016, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191016, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191018, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191024, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477191030, "dur":716, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681874476787383, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476787596, "dur":890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476788486, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681874476788505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476820350, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681874476821326, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476821334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476821337, "dur":26021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476847367, "dur":78555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476925926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476925934, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476928228, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476928242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476928247, "dur":34888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476963143, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476963153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476963157, "dur":17617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476980783, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874476980801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874476980808, "dur":44197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874477025020, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874477025031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681874477025035, "dur":60042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681874477085086, "dur":105339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476787455, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476787609, "dur":874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476788483, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681874476788538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476827434, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681874476828650, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476828659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476828661, "dur":45992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476874662, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476874673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476874678, "dur":68186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476942874, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476942884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874476942890, "dur":34861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874476977762, "dur":40672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874477018438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477018445, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874477019218, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874477019228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477019232, "dur":48303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681874477067545, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1681874477067612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477067717, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1681874477068177, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681874477068187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477068198, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681874477069419, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681874477069428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477069433, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070005, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070022, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070860, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477070914, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477071593, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681874477071601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477071605, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681874477072099, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1681874477072782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477072786, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1681874477074306, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477074317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477074322, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681874477075288, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1681874477075297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681874477075301, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1681874477075828, "dur":114576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476787511, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476787623, "dur":790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476788413, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681874476788440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476796343, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681874476798338, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476798357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476799124, "dur":37082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476836221, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476836234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476836240, "dur":91094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476927348, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476927357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476927361, "dur":23529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476950905, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476950921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874476950928, "dur":27251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874476978192, "dur":59005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874477037200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874477037206, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874477038470, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874477038480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681874477038485, "dur":65268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681874477103766, "dur":86631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476787422, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476787600, "dur":855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476788455, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681874476788472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476795734, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681874476797498, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476797513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476798918, "dur":21762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476820693, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476820709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476820714, "dur":28341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476849062, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476849072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476849076, "dur":79522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476928612, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476928624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476928628, "dur":34206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476962848, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476962861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874476962866, "dur":23597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874476986474, "dur":46713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477033191, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874477033205, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477033965, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477033976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874477033981, "dur":25295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477059291, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477059306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681874477059313, "dur":101459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681874477160781, "dur":29633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476787439, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476787603, "dur":846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476788449, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1681874476788469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476793128, "dur":4570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1681874476797710, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476797723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476798928, "dur":129457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476928395, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476928414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476928419, "dur":35539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476963971, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476963986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874476963991, "dur":25463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874476989465, "dur":19436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874477008905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874477008913, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874477009705, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874477009714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874477009719, "dur":61933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681874477071667, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681874477071764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874477071769, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681874477073542, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1681874477073577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874477073581, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1681874477074966, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1681874477074977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681874477074981, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1681874477075714, "dur":114681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476787474, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476787614, "dur":833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476788447, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681874476788474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476793145, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681874476798178, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476798194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476798927, "dur":51691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476850625, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476850632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476850635, "dur":77849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476928491, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476928498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476928501, "dur":16985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476945501, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476945514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874476945521, "dur":35044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874476980577, "dur":53381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874477033962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874477033967, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874477034907, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874477034917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681874477034938, "dur":68561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681874477103510, "dur":86887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476787502, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476787618, "dur":827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476788445, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681874476788505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476810135, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681874476813351, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476813367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476813372, "dur":59612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476872998, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476873012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476873019, "dur":55191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476928226, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476928241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476928246, "dur":24788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476953044, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476953055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476953059, "dur":22900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476975967, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874476975984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874476976008, "dur":24194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874477000212, "dur":23934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874477024150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874477024157, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874477026037, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874477026047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681874477026051, "dur":98308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681874477124369, "dur":66059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476787529, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476787625, "dur":835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476788460, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681874476788477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476796227, "dur":14005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681874476810238, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476810248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476810251, "dur":43341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476853601, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476853610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476853614, "dur":82742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476936367, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476936378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476936383, "dur":58577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476994969, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476995476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476995483, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476996350, "dur":2273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874476998627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874476998634, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874477002583, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874477002594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681874477002599, "dur":84906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681874477087522, "dur":102884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476787568, "dur":62, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476787630, "dur":826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476788456, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1681874476788474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476809431, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1681874476809947, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874476809957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476809965, "dur":60686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874476870661, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874476870673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476870677, "dur":65693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874476936382, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874476936394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874476936401, "dur":71348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874477007762, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874477007774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874477007781, "dur":38160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874477045950, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874477045961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681874477045965, "dur":144394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681874477190368, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1681874477190370, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476787586, "dur":5, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476787591, "dur":806, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476788401, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681874476788403, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476788416, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681874476788419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476789101, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1681874476790374, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476790383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476790925, "dur":5393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476796403, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476796414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476806721, "dur":121079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476927811, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476927823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476927827, "dur":15692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476943527, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476943539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476943543, "dur":18079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476961632, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874476961641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874476961646, "dur":72358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874477034012, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874477034023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681874477034027, "dur":74939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681874477108981, "dur":81410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476787612, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476787612, "dur":869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476788481, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1681874476788507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476821104, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1681874476826821, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874476826829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476826831, "dur":100807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874476927648, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874476927657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476927660, "dur":36066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874476963739, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874476963751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874476963756, "dur":59691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874477023459, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874477023471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874477023477, "dur":20368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874477043855, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874477043866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681874477043872, "dur":63299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681874477107179, "dur":83214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476787655, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476787656, "dur":791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476788447, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681874476788532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476826256, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681874476826603, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874476826612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476826615, "dur":101047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874476927686, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874476927724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874476927728, "dur":68706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874476996443, "dur":22909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477019368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874477019373, "dur":6535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477025917, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477025934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874477025938, "dur":19998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477045946, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477045958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874477045962, "dur":27518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681874477073491, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681874477073501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874477073521, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681874477075027, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1681874477075037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681874477075041, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1681874477076369, "dur":114035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476787679, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476787680, "dur":729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476788409, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1681874476788434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476791263, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1681874476792088, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer.exe" }}
+,{ "pid":12345, "tid":13, "ts":1681874476792098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476792100, "dur":56572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer.exe" }}
+,{ "pid":12345, "tid":13, "ts":1681874476848679, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874476848686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476848690, "dur":78987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874476927687, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874476927725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476927732, "dur":44607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874476972349, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874476972360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874476972365, "dur":97730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1681874477070104, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1681874477070114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874477070117, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1681874477072163, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level2.resS" }}
+,{ "pid":12345, "tid":13, "ts":1681874477072173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874477072176, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level2.resS" }}
+,{ "pid":12345, "tid":13, "ts":1681874477073454, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1681874477073465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874477073469, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1681874477075628, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1681874477075693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1681874477075697, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1681874477076647, "dur":113745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476787702, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476787702, "dur":699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476788402, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1681874476788438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476790060, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1681874476791771, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1681874476791811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476791815, "dur":6467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1681874476798292, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476798300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476798931, "dur":50669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476849611, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476849620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476849623, "dur":78578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476928368, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476928381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476928385, "dur":34373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476962769, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874476962784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874476962790, "dur":48817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874477011619, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874477011629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1681874477011635, "dur":85833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1681874477097483, "dur":92924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476787728, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476787728, "dur":672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476788402, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1681874476788447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476792090, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1681874476793928, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1681874476793942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476796067, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1681874476798822, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476798837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476798957, "dur":128838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476927808, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476927825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476927830, "dur":62596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476990441, "dur":2813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476993260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874476993270, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874476994543, "dur":35801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874477030348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874477030372, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874477031105, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874477031116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1681874477031120, "dur":93655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1681874477124782, "dur":65648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476787757, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476787757, "dur":645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476788402, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1681874476788543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476839514, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1681874476840665, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476840677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476840680, "dur":95710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476936408, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476936419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476936424, "dur":20554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476956991, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476957003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476957009, "dur":18707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476975727, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874476975740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874476975746, "dur":24421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477000179, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477000929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874477000936, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477002301, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477002766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874477002771, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477003289, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477003300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1681874477003303, "dur":134126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1681874477137438, "dur":52988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476787799, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476787800, "dur":599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476788401, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1681874476788436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476790172, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1681874476791636, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476791647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476791649, "dur":20840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476812496, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476812505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476812508, "dur":115221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476927754, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476927765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476927769, "dur":33531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476961316, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476961401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874476961408, "dur":28543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874476989959, "dur":24307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477014271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874477014279, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477015308, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477015320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874477015325, "dur":45243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477060579, "dur":22720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477083303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1681874477083311, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":17, "ts":1681874477084141, "dur":106269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476787826, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476787826, "dur":679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476788505, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476788529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476824859, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476827073, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476827081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476827083, "dur":43665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476870754, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476870761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476870775, "dur":57231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476928020, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476928139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476928154, "dur":44145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476972310, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874476972320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874476972327, "dur":37800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874477010135, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874477010147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1681874477010151, "dur":93743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1681874477103899, "dur":86495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476787846, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476787846, "dur":641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476788487, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1681874476788505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476821767, "dur":3981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1681874476825757, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476825766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476825769, "dur":21585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476847363, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476847371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476847375, "dur":80541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476927923, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476927932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476927936, "dur":42550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476970498, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476970511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874476970518, "dur":16388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874476986916, "dur":131088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874477118007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1681874477118013, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":19, "ts":1681874477119016, "dur":71374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476787869, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476787869, "dur":529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476788402, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":20, "ts":1681874476788538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476828029, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":20, "ts":1681874476828523, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476828530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476828533, "dur":114556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476943098, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476943107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476943129, "dur":44361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476987498, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476988070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874476988077, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874476989419, "dur":34411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874477023833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874477023840, "dur":6536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874477030387, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874477030398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1681874477030402, "dur":108692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/unityProjects/unityGames/build-Project_Gerolt-001/make3dplatformer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":20, "ts":1681874477139101, "dur":51304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681874477192731, "dur":1083, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681874477230686, "dur": 581, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681874477230405, "dur": 891, "ph": "X", "name": "Write chrome-trace events", "args": {} },
